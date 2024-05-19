@@ -5,55 +5,69 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Me</title>
     <style>
+        /* General Styles */
         body {
             font-family: Arial, sans-serif;
-            background-color: #f8f9fa; /* Soft gray for a soothing vibe */
-            color: #333; /* Dark gray for readability */
+            background-color: #f0f0f0;
+            color: #333;
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-        }
-        header {
-            background-color: #007bff; /* Bold blue header */
-            color: #fff; /* White text for contrast */
-            padding: 20px;
             text-align: center;
         }
-        header a {
-            color: #fff; /* White links in header */
-            text-decoration: none; /* No underlines, please */
-            font-weight: bold; /* Make 'em pop */
-            margin-right: 20px; /* Space out the links */
+
+        /* Header Styles */
+        header {
+            background-color: #007bff;
+            color: #fff;
+            padding: 20px;
         }
+        header h1 {
+            font-size: 36px;
+            margin: 0;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            margin-right: 20px;
+        }
+
+        /* Main Styles */
         main {
             max-width: 800px;
             margin: 20px auto;
-            padding: 0 20px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: left;
         }
-        section {
-            margin-bottom: 30px; /* Space out the sections */
-        }
-        h2 {
-            color: #007bff; /* Blue headings */
-            border-bottom: 2px solid #007bff; /* Underline for emphasis */
+        main h2 {
+            color: #007bff;
+            border-bottom: 2px solid #007bff;
             padding-bottom: 5px;
+            margin-bottom: 20px;
         }
-        ul {
-            padding-left: 20px; /* Indent list items */
+        main p {
+            font-size: 16px;
+            line-height: 1.5;
+            margin-bottom: 20px;
         }
-        img {
-            max-width: 100%;
-            height: auto;
-            margin-top: 10px; /* Space out the images */
+        main ul {
+            list-style-type: none;
+            padding: 0;
+            margin-bottom: 20px;
         }
-        footer {
-            background-color: #007bff; /* Match the header for consistency */
-            color: #fff; /* White text for contrast */
-            text-align: center;
-            padding: 20px 0;
-            position: fixed; /* Stick it to the bottom */
-            width: 100%; /* Stretch across the page */
-            bottom: 0; /* Stick to the bottom */
+        main li {
+            margin-bottom: 10px;
+        }
+        main a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        main a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
@@ -83,8 +97,5 @@
             </a>
         </section>
     </main>
-    <footer>
-        &copy; 2024 Newton's Website. All rights reserved.
-    </footer>
 </body>
 </html>
