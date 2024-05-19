@@ -5,47 +5,72 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Newton's Website</title>
     <style>
+        /* General Styles */
         body {
-            background-color: #f0f0f0; /* Fancy gray for that modern vibe */
-            font-family: Arial, sans-serif; /* Times New Roman is so last century */
-            color: #333; /* Black is so mainstream */
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-            text-align: center; /* Because centered is just better, right? */
+            text-align: center;
         }
+
+        /* Header Styles */
+        header {
+            background-color: #007bff;
+            color: #fff;
+            padding: 20px;
+        }
+        header h1 {
+            font-size: 36px;
+            margin: 0;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            margin-right: 20px;
+        }
+
+        /* Container Styles */
         .container {
             max-width: 800px;
-            margin: 0 auto;
+            margin: 20px auto;
             padding: 20px;
-            background-color: #fff; /* Ah, much better */
-            border-radius: 10px; /* Let's round those edges */
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* A subtle shadow to make it pop */
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
-        h1 {
-            color: #007bff; /* Blue for that extra oomph */
+        .container h1 {
+            font-size: 28px;
+            margin-bottom: 20px;
         }
-        p {
-            line-height: 1.6; /* Breathing room between lines */
+        .container p {
+            font-size: 16px;
+            line-height: 1.5;
         }
-        ul {
-            list-style: none; /* Because bullets are so passé */
+        .container ul {
+            list-style-type: none;
             padding: 0;
         }
-        li {
-            margin-bottom: 10px; /* Some space between list items */
+        .container li {
+            margin-bottom: 10px;
         }
-        a {
-            text-decoration: none; /* Underlines are so 90s */
-            color: #007bff; /* Let's keep it consistent */
-            transition: color 0.3s ease; /* Smooth color transitions */
+        .container a {
+            color: #007bff;
+            text-decoration: none;
         }
-        a:hover {
-            color: #0056b3; /* A subtle change on hover, because why not? */
+        .container a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
+    <header>
+        <a href="index.html">Home</a>
+        <h1>Welcome to Newton's Website!</h1>
+    </header>
     <div class="container">
         <h1>Welcome to Newton's Website!</h1>
         <p>This is kind of like a hub for you to look at my information and stuff :/</p>
